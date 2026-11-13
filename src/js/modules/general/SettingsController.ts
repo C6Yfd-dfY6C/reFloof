@@ -2482,15 +2482,15 @@ export class SettingsController extends RE6Module {
       }),
       Form.div({
         value:
-                    `<b>${window["re621"]["name"]}</b> is a comprehensive set of tools designed to enhance the website for both casual and power users. `
-                    + `It is created and maintained by unpaid volunteers, with the hope that it will be useful for the community.`,
+                    `<b>${window["re621"]["displayName"]}</b> is a conversion of re621 which features a comprehensive set of tools designed to enhance the website for both casual and power users. `
+                    + `re621 was created and then maintained by unpaid volunteers, with the hope that it will be useful for the community. All credit goes to re621 and its contributors for the existence of reFloof.`,
         width: 3,
       }),
       Form.div({
         value:
-                    `Keeping the script - and the website - fully functional is our highest priority. `
+                    `The goal of this conversion is to stay as close to re621 as possible.`
                     + `If you are experiencing bugs or issues, do not hesitate to create a new ticket on <a href="${window["re621"]["links"]["issues"]}" target="_blank" rel="noopener noreferrer">github</a>, `
-                    + `or leave us a message in the <a href="${window["re621"]["links"]["forum"]}" target="_blank" rel="noopener noreferrer">forum thread</a>. `
+                    + `or leave a message in the <a href="${window["re621"]["links"]["forum"]}" target="_blank" rel="noopener noreferrer">forum thread</a>. `
                     + `Feature requests, comments, and overall feedback are also appreciated.`,
         width: 3,
       }),
