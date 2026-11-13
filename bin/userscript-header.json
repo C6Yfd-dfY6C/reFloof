@@ -9,8 +9,7 @@
     "homepageURL": "%HOMEPAGE%",
     "contributionURL": "https://ko-fi.com/bitwolfy",
     "match": [
-        "https://e621.net/*",
-        "https://e926.net/*"
+        "https://floofgens.net/*"
     ],
     "updateURL": "%GITHUB%/releases/latest/download/script.meta.js",
     "downloadURL": "%GITHUB%/releases/latest/download/script.user.js",
@@ -41,7 +40,7 @@
     "icon64": "https://cdn.jsdelivr.net/gh/re621/re621.Legacy@master/assets/icon64.png",
     "connect": [
         "api.github.com",
-        "static1.e621.net",
+        "static1.floofgens.net",
         "re621.app",
         "*"
     ],

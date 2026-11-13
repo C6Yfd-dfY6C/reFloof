@@ -98,7 +98,7 @@ export class Miscellaneous extends RE6Module {
 
     // Fix the forum title
     if (this.fetchSettings("fixForumTitle") && Page.matches(PageDefinition.forum)) {
-      const title = /^(?:Forum - )(.+)(?: - (e621|e926))$/g.exec(document.title);
+      const title = /^(?:Forum - )(.+)(?: - (floofgens))$/g.exec(document.title);
       if (title) document.title = `${title[1]} - Forum - ${title[2]}`;
     }
 

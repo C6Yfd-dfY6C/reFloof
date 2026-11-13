@@ -1374,7 +1374,7 @@ export class SettingsController extends RE6Module {
           Form.checkbox(
             {
               value: uploadUtilities.fetchSettings("checkDuplicates"),
-              label: `<b>Check Duplicates</b><br />Search for visually similar images on e621 when uploading`,
+              label: `<b>Check Duplicates</b><br />Search for visually similar images on floofgens.net when uploading`,
               width: 2,
             },
             async (data) => {
@@ -1988,7 +1988,7 @@ export class SettingsController extends RE6Module {
     return new Form({ name: "conf-hotkeys", columns: 3, width: 3 }, [
       // Listing
       Form.div({
-        value: "<center><b>Note:</b> Vanilla e621 hotkeys can be rebound <a href='/static/keyboard_shortcuts/'>here</a>.</center>",
+        value: "<center><b>Note:</b> Vanilla floofgens hotkeys can be rebound <a href='/static/keyboard_shortcuts/'>here</a>.</center>",
         width: 3,
       }),
 

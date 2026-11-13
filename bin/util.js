@@ -24,7 +24,7 @@ module.exports = {
     // const version = process.env.GIT_TAG_NAME === undefined ? package.version : process.env.GIT_TAG_NAME;
     const version = process.env.GIT_TAG_NAME === undefined ? packageJSON.version.substring(0, packageJSON.version.lastIndexOf(".")) + ".dev0" : process.env.GIT_TAG_NAME;
     return input
-      .replace(/%NAME%/g, "re621")
+      .replace(/%NAME%/g, "refloof")
       .replace(/%DISPLAYNAME%/g, packageJSON.displayName)
       .replace(/%NAMESPACE%/g, packageJSON.namespace)
       .replace(/%DESCRIPTION%/g, packageJSON.description)

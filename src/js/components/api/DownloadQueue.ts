@@ -88,7 +88,7 @@ export class DownloadQueue {
       return this.zip.generateAsync({
         type: "blob",
         compression: "STORE",
-        comment: "Downloaded from e621 on " + new Date().toUTCString(),
+        comment: "Downloaded from floofgens.net on " + new Date().toUTCString(),
       }, onArchiveProgress);
     });
   }
@@ -198,7 +198,7 @@ interface FileData {
   /**
    * **path** Absolute path where the file can be found.
    * Note that the domain has to be listed in the @connect tag in the header.
-   * ex. https://static1.e621.net/data/c5/23/c5237c0c40c22af4c4871c38954cc6ac.jpg
+   * ex. https://static1.floofgens.net/data/c5/23/c5237c0c40c22af4c4871c38954cc6ac.jpg
    */
   path: string;
 

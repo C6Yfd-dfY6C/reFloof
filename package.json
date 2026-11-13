@@ -1,10 +1,10 @@
 {
-  "name": "re621-legacy",
-  "displayName": "re621 - e621 Reimagined",
-  "namespace": "re621.app",
+  "name": "refloof",
+  "displayName": "reFloof - floofgens Reimagined",
+  "namespace": "reFloof.app",
   "version": "1.5.0",
-  "description": "Subscription manager, mass downloader, thumbnail enhancer, and more for e621",
-  "author": "bitWolfy",
+  "description": "Subscription manager, mass downloader, thumbnail enhancer, and more for floofgens.net. A conversion of re621.",
+  "author": "bitWolfy (re621), Earlopain (re621), Cinder/Sindrake (re621 maintainer)",
   "contributors": [
     "bitWolfy <@bitWolfy#7932>",
     "Earlopain <@Earlopain#9703>"
@@ -46,14 +46,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/re621/re621.Legacy.git"
+    "url": "git+https://github.com/C6Yfd-dfY6C/reFloof.git"
   },
   "license": "GPLv3",
   "bugs": {
-    "url": "https://github.com/re621/re621.Legacy/issues"
+    "url": "https://github.com/C6Yfd-dfY6C/reFloof/issues"
   },
-  "homepage": "https://e621.net/forum_topics/25872",
-  "github": "https://github.com/re621/re621.Legacy",
+  "homepage": "https://github.com/C6Yfd-dfY6C/reFloof",
+  "github": "https://github.com/C6Yfd-dfY6C/reFloof",
   "dependencies": {
     "caniuse-lite": "^1.0.30001734",
     "jquery": "^3.6.0",

@@ -7,7 +7,7 @@ import { APIResponse } from "./responses/APIResponse";
 
 // All endpoints must be registered here.
 // Name is irrelevant, as long as it is unique.
-// Path is the endpoint address, without https://e621.net/
+// Path is the endpoint address, without https://floofgens.net/
 // Don't forget to update the name in the E621 aliases below
 const ENDPOINT_DEFS: EndpointDefinition[] = [
   { name: "posts", path: "posts.json", node: "posts" },

@@ -78,7 +78,7 @@ export class Page {
 
   /**
    * Returns the name of the current site
-   * @returns e621 or e926
+   * @returns floofgens
    */
   public static getSiteName (): string {
     return this.getInstance().url.hostname.replace(/\.net/g, "");
