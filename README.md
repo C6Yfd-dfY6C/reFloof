@@ -31,11 +31,11 @@ With a script manager installed, click on the following link and follow the inst
 
 ## Features
 
-For a complete feature overview visit the projects website, found under [re621.app](https://re621.app/)
+For a complete feature overview, visit the original re621 website found at [re621.app](https://re621.app/).
 
 ## Contributing
 
-Issues experienced may be bugs carried over from re621. I encourage you to test whatever bugs you encounter here with re621 as well and [open an issue on the re621 GitHub page](https://github.com/re621/re621.Legacy/issues) if the bug is preset there as well.
+Issues experienced may be bugs carried over from re621. I encourage you to test whatever bugs you encounter here with re621 as well and [open an issue on the re621 GitHub page](https://github.com/re621/re621.Legacy/issues) if the bug is present there as well.
 
 ## Building the Script
 
