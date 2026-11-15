@@ -88,7 +88,7 @@ export class DownloadQueue {
       return this.zip.generateAsync({
         type: "blob",
         compression: "STORE",
-        comment: "Downloaded from floofgens.net on " + new Date().toUTCString(),
+        comment: "Downloaded from floofgens on " + new Date().toUTCString(),
       }, onArchiveProgress);
     });
   }

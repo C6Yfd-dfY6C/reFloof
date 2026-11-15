@@ -1374,7 +1374,7 @@ export class SettingsController extends RE6Module {
           Form.checkbox(
             {
               value: uploadUtilities.fetchSettings("checkDuplicates"),
-              label: `<b>Check Duplicates</b><br />Search for visually similar images on floofgens.net when uploading`,
+              label: `<b>Check Duplicates</b><br />Search for visually similar images on floofgens when uploading`,
               width: 2,
             },
             async (data) => {
