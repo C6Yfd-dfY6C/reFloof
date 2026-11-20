@@ -2482,7 +2482,7 @@ export class SettingsController extends RE6Module {
       }),
       Form.div({
         value:
-                    `<b>${window["re621"]["displayName"]}</b> is a conversion of re621 which features a comprehensive set of tools designed to enhance the website for both casual and power users. `
+                    `<b>${window["re621"]["name"]}</b> is a conversion of re621 which features a comprehensive set of tools designed to enhance the website for both casual and power users. `
                     + `re621 was created and then maintained by unpaid volunteers, with the hope that it will be useful for the community. All credit goes to re621 and its contributors for the existence of reFloof.`,
         width: 3,
       }),
